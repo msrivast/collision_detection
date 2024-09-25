@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pybullet = "*"
+numpy = "==1.26.4"
+trimesh = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
