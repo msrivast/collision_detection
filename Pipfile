@@ -6,7 +6,7 @@ name = "pypi"
 [packages]
 pybullet = "*"
 numpy = "==1.26.4"
-trimesh = "*"
+trimesh = {extras = ["easy"], version = "*"}
 
 [dev-packages]
 
